@@ -6,13 +6,31 @@ end
 puts create_olympics_hash
 
 def add_a_key_value_pair
-  summer_olympics_hash={:Sydney => "2000", :Athens => "2004", :Beijing => "2008", :London => "2012"}
+  summer_olympics_hash={
+    :Sydney => "2000",
+  :Athens => "2004",
+  :Beijing => "2008",
+  :London => "2012"
+  }
   new_sum_olymp = :Atlanta
   new_year = "1996"
   summer_olympics_hash = summer_olympics_hash
 end
 
 puts add_a_key_value_pair
+
+klosseattle_crushes = {
+  :alice => "Shawn Mendes",
+  :maddy => "Patrick Dempsey",
+  :helen => "Tom Holland",
+  :allie => "Brendan Urie"
+}
+
+new_klosseattle = :hunter
+crush = "Colton Haynes"
+
+klosseattle_crushes[new_klosseattle] = crush
+puts klosseattle_crushes
 
 def iterate_through_hash
   summer_olympics_hash={:Sydney => "2000", :Athens => "2004", :Beijing => "2008", :London => "2012", :Atlanta => "1996"}
