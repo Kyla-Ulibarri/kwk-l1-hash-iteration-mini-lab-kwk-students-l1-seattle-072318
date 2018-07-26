@@ -30,4 +30,3 @@ puts iterate_through_hash
 end 
 end
 
-puts iterate_through_keys
