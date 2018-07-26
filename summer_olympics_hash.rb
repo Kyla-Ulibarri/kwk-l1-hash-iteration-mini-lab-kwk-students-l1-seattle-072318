@@ -28,4 +28,3 @@ def iterate_through_keys
   puts add_a_key_value_pair.keys
 end
 
-puts iterate_through_keys.upcase
