@@ -26,9 +26,9 @@ puts iterate_through_hash
  def iterate_through_keys
    iterate_through_hash.keys = city_names
    puts city_names
-   #city_names.each do |upcased_cities|
- # puts #{upcased_cities}
-#end 
+   city_names.each do |upcased_cities|
+  puts #{upcased_cities}
+end 
 end
 
 puts iterate_through_keys
