@@ -9,7 +9,7 @@ def add_a_key_value_pair
   summer_olympics_hash={:Sydney => "2000", :Athens => "2004", :Beijing => "2008", :London => "2012"}
   new_sum_olymp = :Atlanta
   new_year = "1996"
-  summer_olympics_hash = summer_olympics_hash[new_sum_olymp => new_year]
+  summer_olympics_hash = 
 end
 
 puts add_a_key_value_pair
