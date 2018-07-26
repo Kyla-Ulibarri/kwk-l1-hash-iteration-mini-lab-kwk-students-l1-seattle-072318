@@ -21,7 +21,6 @@ def iterate_through_hash
   end
 end
 
-puts iterate_through_hash
 
  def iterate_through_keys
    iterate_through_hash.keys.each do |upcased_cities|
