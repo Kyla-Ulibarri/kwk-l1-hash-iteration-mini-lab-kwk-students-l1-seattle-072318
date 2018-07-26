@@ -25,6 +25,6 @@ puts iterate_through_hash
 
 def iterate_through_keys do |upcased_cities|
   add_a_key_value_pair.keys
-  puts add_a_key_value_pair.keys
+  puts #{upcased_cities}.upcase
 end
 
