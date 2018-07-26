@@ -23,8 +23,8 @@ end
 
 puts iterate_through_hash
 
-def iterate_through_keys.each do |upcased_cities|
+ iterate_through_keys.each do |upcased_cities|
   puts #{upcased_cities}.upcase
 end 
-end
+
 
